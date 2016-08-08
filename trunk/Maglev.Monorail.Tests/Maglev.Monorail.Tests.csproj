@@ -86,12 +86,6 @@
     <Folder Include="Resources\RawFiles\Pak001\Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Maglev.Monorail\Maglev.Monorail.csproj">
-      <Project>{C05B9163-2F7C-466A-BF3B-FD896A1AC161}</Project>
-      <Name>Maglev.Monorail</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Resources\RawFiles\Pak001\Images\testimage001.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

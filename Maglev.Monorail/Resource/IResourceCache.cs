@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Maglev.Monorail.Diagnostics.Logging;
 
 namespace Maglev.Monorail.Resource
 {
