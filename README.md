@@ -1,2 +1,2 @@
 # Maglev.Monorail
-A Game Framework library for C#
+An Engine Independant Game Framework library for C#
