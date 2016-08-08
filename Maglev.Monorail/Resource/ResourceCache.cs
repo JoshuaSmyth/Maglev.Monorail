@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using Maglev.Monorail.Diagnostics.Logging;
 
 namespace Maglev.Monorail.Resource
 {

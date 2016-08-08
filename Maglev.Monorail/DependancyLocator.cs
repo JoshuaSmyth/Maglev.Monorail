@@ -31,8 +31,7 @@ namespace Maglev.Monorail
             m_Map.Clear();
         }
 
-        public T GetDependancy<T>() where T : class
-        {
+        public T GetDependancy<T>() where T : class {
             var type = typeof(T);
             if (m_Map.ContainsKey(type))
             {
@@ -41,4 +40,6 @@ namespace Maglev.Monorail
             throw new ApplicationException("The type " + type.FullName + " is not registered");
         }
     }
+
+
 }

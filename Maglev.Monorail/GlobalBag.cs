@@ -31,23 +31,6 @@ namespace Maglev.Monorail
             DebugLogger = debugLogger;
             DependancyLocator = dependancyLocator;
             FileSystem = fileSystem;
-
-#if DEBUG
-            if (GraphicsDevice == null)
-                throw new ArgumentNullException("graphicsDevice");
-
-            if (ResourceCache == null)
-                throw new ArgumentNullException("resourceCache");
-
-            if (DebugLogger == null)
-                throw new ArgumentNullException("debugLogger");
-
-            if (DependancyLocator == null)
-                throw new ArgumentNullException("dependancyLocator");
-
-            if (fileSystem == null)
-                throw new ArgumentNullException("fileSystem");
-#endif
         }
 
         // Call once per frame

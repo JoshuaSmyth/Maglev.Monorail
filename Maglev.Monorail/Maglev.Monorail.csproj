@@ -58,13 +58,14 @@
     <Compile Include="Diagnostics\TracedStopwatch.cs" />
     <Compile Include="GlobalBag.cs" />
     <Compile Include="Graphics\IGraphicsDevice.cs" />
+    <Compile Include="ICanResolveDependancies.cs" />
+    <Compile Include="IDependancyLocator.cs" />
     <Compile Include="Pak\IPackFileSystem.cs" />
     <Compile Include="Pak\PakFileReader.cs" />
     <Compile Include="Pak\PakFileMaker.cs" />
     <Compile Include="Pak\PakFileRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DependancyLocator.cs" />
-    <Compile Include="IDependancyLocator.cs" />
     <Compile Include="Resource\IndexRecord.cs" />
     <Compile Include="Resource\IResource.cs" />
     <Compile Include="Resource\IResourceCache.cs" />
