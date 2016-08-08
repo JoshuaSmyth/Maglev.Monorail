@@ -1,0 +1,7 @@
+Maglev.Monorail.Tests/bin/
+Maglev.Monorail.Tests/obj/
+Maglev.Monorail/bin/
+packages/
+pakme/bin/
+pakme/obj/
+Maglev.Monorail/obj/
